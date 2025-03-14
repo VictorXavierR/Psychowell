@@ -1,0 +1,23 @@
+.Home {
+    margin-top: 150px;
+}
+
+.foto-inicio {
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .foto-inicio {
+        transform: scale(0.35);
+        margin-left: -240px;
+        margin-top: -190px;
+        margin-bottom: -170px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .foto-inicio {
+        margin-left: -25px;
+    }
+}
