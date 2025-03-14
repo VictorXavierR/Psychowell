@@ -7,6 +7,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #368CE6;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -47,6 +55,8 @@ p {
     margin: 0 40px;
     /* Arriba y abajo 0, izquierda y derecha 40px */
     color:#032853;
+    text-indent: 10px;
+    /* Sangría de 10px */;
 }
 
 li {

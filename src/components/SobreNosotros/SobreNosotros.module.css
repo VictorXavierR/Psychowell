@@ -1,0 +1,50 @@
+.SobreNosotros {
+    margin-top: 150px;
+}
+
+.foto-sobre-nosotros {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%; /* Aseguramos que el body y html ocupen toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+@media screen and (max-width: 768px) {
+    
+    body, html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      .tablet-specific {
+        margin-bottom: 100px;
+      }
+      .foto-sobre-nosotros {
+        transform: scale(0.6);
+        margin:0;
+        margin-left: -125px;
+        margin-top: -40px;
+        margin-bottom: -20px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    body, html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .tablet-specific {
+        margin-bottom: 80px;
+      }
+  }

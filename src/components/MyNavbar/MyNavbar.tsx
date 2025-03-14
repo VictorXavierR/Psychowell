@@ -18,7 +18,7 @@ export function MyNavbar() {
           <BootstrapNavbar.Collapse id="navbar-nav">
             <Nav className="mx-auto">
               <Link className="nav-link" to="/">Inicio</Link>
-              <Link className="nav-link" to="/about">Sobre Nosotros</Link>
+              <Link className="nav-link" to="/sobre-nosotros">Sobre Nosotros</Link>
               <Link className="nav-link" to="/about">Equipo</Link>
               <Link className="nav-link" to="/contact">Contacto</Link>
             </Nav>

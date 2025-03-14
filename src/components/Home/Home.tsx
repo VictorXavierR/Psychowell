@@ -23,7 +23,6 @@ export function Home() {
           </ul>
           <h3 style={{marginTop:'10px'}}>Por que se consiguen resultados con esta metodología:</h3>
           <ol style={{marginTop:'10px'}}>
-            <li>Psicoeducación: Asesoramos al paciente para identificar qué factores generan malestar.</li>
             <li>Capacitamos al paciente con habilidades y técnicas para gestionar su bienestar emocional.</li>
             <li>Mandamos ejercicios entre sesión y sesión para que el paciente aplique las habilidades y técnicas.</li>
             <li>Realizamos un seguimiento del bienestar del paciente.</li>
