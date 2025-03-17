@@ -1,0 +1,41 @@
+.Equipo {
+  margin-top: 150px;
+}
+
+.fotoPsicologos{
+    margin-left: 20px;
+}
+
+.nuestroEquipo {
+  padding-bottom: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .fotoEquipo{
+    transform: scale(0.5);
+    margin-left: -200px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
+  .nuestroEquipo {
+    padding-bottom: 100px;
+  }
+  .fichaPsicologo {
+    margin-top: 20px;
+  }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  .fotoEquipo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .nuestroEquipo {
+    padding-bottom: 80px;
+  }
+  .fichaPsicologo {
+    margin-top: 20px;
+  }  
+    
+}
