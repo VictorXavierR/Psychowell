@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/papaparse": "^5.3.15",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "typescript": "~5.7.2",
@@ -16,6 +17,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "contentful": "^11.5.9",
+    "papaparse": "^5.5.2",
     "react-bootstrap": "^2.10.9",
     "react-router-dom": "^7.3.0"
   }
