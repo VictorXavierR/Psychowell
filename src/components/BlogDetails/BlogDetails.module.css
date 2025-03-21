@@ -1,0 +1,33 @@
+.BlogDetails {
+    margin-top: 150px;
+}
+
+.parrafo {
+    margin-top: 20px;
+}
+
+.imagenBlog{
+    margin-left: 40px; 
+    margin-top: 20px; 
+    width: 700px; 
+    height: 500px; 
+}
+
+@media screen and (max-width: 768px) {
+    .Contenido{
+        margin-bottom: 80px;
+    }
+    .imagenBlog{
+        margin-left: 40px; 
+        margin-top: 20px; 
+        width: 300px; 
+        height: 300px; 
+    } 
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+    .Contenido{
+        margin-bottom: 80px;
+    }   
+}

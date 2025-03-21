@@ -74,3 +74,10 @@ li {
 label{
     font-family: 'Poppins', sans-serif;
 }
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin-left: 40px;
+  }
+

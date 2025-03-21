@@ -4,7 +4,7 @@ import { Home } from './components/Home/Home'
 import { MyNavbar } from './components/MyNavbar/MyNavbar'
 import { Footer } from './components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Blog, Contacto, Equipo, SobreNosotros } from './components';
+import { Blog, BlogDetails, Contacto, Equipo, SobreNosotros } from './components';
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
                 <Route path='/equipo' element={<Equipo />} />
                 <Route path='/contacto' element={<Contacto />} />
                 <Route path='/blog' element={<Blog />} />
+                <Route path='/blog-details' element={<BlogDetails />} />
             </Routes>
             <Footer/>
         </>
