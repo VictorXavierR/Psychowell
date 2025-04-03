@@ -49,6 +49,27 @@
     font-size: 30px;
   }
 
+  .logo{
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+
+  .divider{
+    background-color: #032853;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .dividerTextosLegales{
+    background-color: #032853;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
 @media screen and (max-width: 768px) {
     .Footer {
         width: 100%;
@@ -60,6 +81,15 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+      }
+      .logo{
+        max-width: 200px;
+        max-height: 200px;
+        margin-left:0px !important;
+      }
+      .dividerTextosLegales{
+        margin-left:15px !important;
+        width: 93% !important;
       }
     
 }
@@ -74,5 +104,18 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+      }
+      .logo{
+        max-width: 200px;
+        max-height: 200px;
+        margin-left:40px !important;
+      }
+      .contactInfo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .dividerTextosLegales{
+        margin-left:15px !important;
+        width: 97% !important;
       }
   }

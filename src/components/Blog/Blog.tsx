@@ -50,7 +50,6 @@ export function Blog() {
             console.log(`Post ${index}:`, post);
 
             const title = post.fields.titulo; 
-            const content = post.fields.contenido?.content?.[0]?.content?.[0]?.value || 'Sin contenido'; 
             const author = post.fields.autor; 
             const imageUrl = post.fields.imagen?.fields?.file?.url; 
             const extracto = post.fields.extracto; 
